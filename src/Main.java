@@ -8,8 +8,7 @@ public class Main {
     public static void main(String[] args) {
         db = new DB();
 
-        db.createMessage(0, "Du Huan");
-        db.createMessage(0, "Du Huan123");
-        System.out.println(db.decryptMessage(0, 1, "password!123"));
+        db.createMessage(1, 0,"Du Huan", "password!12345");
+        System.out.println(db.decryptMessage(0, 0, "password!123"));
     }
 }

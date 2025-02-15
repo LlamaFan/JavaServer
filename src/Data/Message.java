@@ -18,4 +18,8 @@ public class Message {
     public int getSender_id() {
         return sender_id;
     }
+
+    public String getSignature() {
+        return signature;
+    }
 }
